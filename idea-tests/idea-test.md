@@ -12,6 +12,6 @@ To read data from the sensor i first used smbus to communicate directly with the
 
 Then i found out that the easiest solution to use pwm is to use the [pigpiod library](https://abyz.me.uk/rpi/pigpio/), because of the [hardware_PWM](https://abyz.me.uk/rpi/pigpio/python.html#hardware_PWM) function. So i rewrote the tempread-script using pigpiod: This Script is [tempread.py](tempread.py).
 
-The Script to control a pwm fan via pigpiod is pretty straighforward:.[fancontrol.py](fancontrol.py).
+The Script to control a pwm fan via pigpiod is pretty straighforward: [fancontrol.py](fancontrol.py).
 
-To use a temperature curve, i wrote this script .[tempcurve.py](tempcurve.py) which lets one specify points on the curve and then uses linear functions between any two points to find values for points in between them.
+To use a temperature curve, i wrote this script [tempcurve.py](tempcurve.py) which lets one specify points on the curve and then uses linear functions between any two points to find values for points in between them.
