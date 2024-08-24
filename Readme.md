@@ -11,3 +11,5 @@ All those parts put together then make the fancontrol script: [fancontrolscript.
 I also put this together in a Docker container (Coming soon once i have the time to remove sensitive Info)
 
 And i also added support to query a Server via IPMI to find out its internal temperature and change the fan speed according to it (Coming soon once i have the time to remove sensitive Info)
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
